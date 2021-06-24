@@ -192,7 +192,7 @@
   
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
+    background-color: yellow;
     align-items: center;
     text-align: center;
     width: 100%;
@@ -379,7 +379,7 @@
   .site-footer-container-inner {
     border-bottom: 0.05rem solid;
     overflow: hidden;
-    padding: 5rem 3rem 5rem 3rem;
+    padding: 5rem 0rem 5rem 2rem;
   }
   
   .site-footer-navigation-primary {
@@ -388,7 +388,7 @@
   }
   
   .site-footer-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 3rem;
     font-weight: 800;
     padding-bottom: 1rem;
