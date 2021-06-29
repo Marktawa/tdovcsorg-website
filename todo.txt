@@ -9,7 +9,25 @@ Minimum Viable Product
 -	Move Success Stories to Our Work page (offline)
 -	Refactor footer (partly offline)
 -	Include Projects on header menu (offline)
+
 -	Create color profile for website (offline)
+	/* Custom properties/variables  */
+	:root {
+  	--off-white: #e6e6e6;
+  	--yellow: #f8f800;
+  	--green: #009900;
+  	--dark-green: #003300;
+  	--orange: #ffa500;
+  	--gray: #b3b3b3;
+  	--light-gray: #cccccc;
+  	--lighter-gray: #d9d9d9;
+  	--dark-gray: #bfbfbf;
+  	--darker-gray: #999999;
+	--maroon: #a62c34;
+	--light-black: #1a1a1a;
+  	--dark-black: #0d0d0d;
+	}
+
 -	Add appropriate images to site
 -	Add legitimizing publications to Publications page
 -	Create sample articles for News, Events, Announcements
