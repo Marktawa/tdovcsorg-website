@@ -8,9 +8,9 @@ Minimum Viable Product
 -	Mailing list via Node.js
 -	Move Success Stories to Our Work page (offline)
 -	Refactor footer (partly offline)
--	Include Projects on header menu (offline)
+-	Include Projects on header menu (offline) DONE
 
--	Create color profile for website (offline)
+-	Create color profile for website (offline) DONE
 	/* Custom properties/variables  */
 	:root {
   	--off-white: #e6e6e6;
@@ -34,3 +34,5 @@ Minimum Viable Product
 -	Make website mobile responsive
 -	Label Image placeholders (offline)
 -	Add local support for font
+-	Consistent CSS theme for:
+		- Button
