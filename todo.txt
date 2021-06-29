@@ -6,7 +6,7 @@ Minimum Viable Product
 -	Add map
 -	Create contact form
 -	Mailing list via Node.js
--	Move Success Stories to Our Work page (offline)
+-	Move Success Stories to Our Work page (offline) DONE
 -	Refactor footer (partly offline)
 -	Include Projects on header menu (offline) DONE
 
