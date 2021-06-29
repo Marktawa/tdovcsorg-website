@@ -1,0 +1,18 @@
+TO DO:
+
+Week 06/28 to 07/05
+
+Minimum Viable Product
+-	Add map
+-	Create contact form
+-	Mailing list via Node.js
+-	Move Success Stories to Our Work page (offline)
+-	Refactor footer (partly offline)
+-	Include Projects on header menu (offline)
+-	Create color profile for website (offline)
+-	Add appropriate images to site
+-	Add legitimizing publications to Publications page
+-	Create sample articles for News, Events, Announcements
+-	Make website mobile responsive
+-	Label Image placeholders (offline)
+-	Add local support for font
