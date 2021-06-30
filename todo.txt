@@ -26,6 +26,13 @@ Minimum Viable Product
 -	Refactor footer (partly offline)
 -	Include Projects on header menu (offline) DONE
 
+/*****REQUIREMENTS FROM TDOVC STAFF******/
+-	Board Member list
+-	Staff list
+-	Projects info
+-	Image placements
+/****************THE END****************/
+
 -	Create color profile for website (offline) DONE
 	/* Custom properties/variables  */
 	:root {
