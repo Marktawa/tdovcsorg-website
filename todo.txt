@@ -34,5 +34,10 @@ Minimum Viable Product
 -	Make website mobile responsive
 -	Label Image placeholders (offline)
 -	Add local support for font
--	Consistent CSS theme for:
-		- Button
+-	Add links to buttons
+
+-	Add background image to hero section, full width. Add text on top of image.
+	
+Non MVP
+-	Consistent CSS theme for Button
+-	Add Background Image using CSS
