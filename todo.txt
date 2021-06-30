@@ -4,8 +4,6 @@ Week 06/28 to 07/05
 
 Minimum Viable Product
 -	Add map
--	Create contact form
--	Mailing list via Node.js
 -	Move Success Stories to Our Work page (offline) DONE
 -	Refactor footer (partly offline)
 -	Include Projects on header menu (offline) DONE
@@ -32,8 +30,7 @@ Minimum Viable Product
 -	Add legitimizing publications to Publications page
 -	Create sample articles for News, Events, Announcements
 -	Make website mobile responsive
--	Label Image placeholders (offline)
--	Add local support for font
+-	Label Image placeholders (offline) DONE 
 -	Add links to buttons
 
 -	Add background image to hero section, full width. Add text on top of image.
@@ -41,3 +38,6 @@ Minimum Viable Product
 Non MVP
 -	Consistent CSS theme for Button
 -	Add Background Image using CSS
+-	Create contact form
+-	Mailing list via Node.js
+-	Add local support for font
