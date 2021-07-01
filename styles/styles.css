@@ -352,7 +352,7 @@
     list-style: none;
   }
   
-  .subpage-section .img-container {
+  .subpage-section > .img-container {
     background-color: var(--yellow);
       display: flex;
       height: 24rem;
@@ -365,6 +365,18 @@
       align-self: center;
       text-align: center;
       width: 100%;
+  }
+
+  .img-container > img {
+    width: 100%;
+  }
+
+  .map-container > iframe{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 450px;
+    border: 0.05rem var(--light-black) solid; 
   }
   
   /*Footer section styling*/

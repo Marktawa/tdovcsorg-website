@@ -3,19 +3,16 @@ TO DO:
 Week 06/28 to 07/05
 
 Minimum Viable Product
--	About Us Page:
-	- Add Staff section
-		- Board, Management, Staff
-	- Add organogram image
--	Accessibility Page: N/A
--	Photo Gallery: Link to Facebook | Photo gallery using html
--	Jobs: Put section stating no jobs currently available
--	Announcements: 3 sample articles within page: collapsible | No page
--	Contact Us: Add map
--	Cookies Policy: Cookies policy using html CSS
--	COVID-19 Policy: Copy Cheshire Homes Society Zambia
--	Donate: Leave as is.
--	Events: No page
+-	About Us Page: DONE
+	- Add Staff section DONE
+		- Board, Management, Staff DONE
+	- Add organogram image DONE
+-	Accessibility Page: DONE
+-	Photo Gallery: Link to Facebook DONE 
+-	Jobs: Put section stating no jobs currently available DONE
+-	Contact Us: Add map DONE 
+-	Donate: Leave as is. DONE
+-	Events: No page DONE
 -	News: 3 sample articles within page: collapsed, Separate page for full article
 -	Our Work: Put 1 success story, {get from email}, Separate page for full story
 -	Privacy Policy: Copy from Leonard Cheshire
@@ -66,3 +63,7 @@ Non MVP
 -	Create contact form
 -	Mailing list via Node.js
 -	Add local support for font
+-	Photo gallery using html
+-	Announcements: 3 sample articles within page: collapsible
+-	Cookies Policy: Cookies policy using html CSS
+-	COVID-19 Policy: Copy Cheshire Homes Society Zambia
