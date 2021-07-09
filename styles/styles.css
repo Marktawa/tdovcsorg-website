@@ -142,8 +142,8 @@
   }
   
   .summary > .level {
-    background-color: var(--orange);
-    color: var(--dark-green);
+    background-color: var(--green);
+    color: var(--orange);
     padding: 1rem 0;
     width: 100%;
     text-transform: uppercase;
@@ -158,7 +158,7 @@
     font-style: italic;
   }
   
-  .summary button {
+  .summary > button {
     border: 0;
     margin: 1rem 0;
     background-color: var(--orange);
@@ -173,25 +173,17 @@
     transition: background-color 1s;
   }
   
-  #volunteer-image {
-    display: block;
+  .image-container-summary {
+    display: flex;
     height: 16rem;
     width: 100%;
     background-color: var(--yellow);
   }
-  
-  #donate-image {
-    display: block;
-    height: 16rem;
+
+  .image-container-summary > h4 {
+    align-self: center;
+    text-align: center;
     width: 100%;
-    background-color: var(--yellow);
-  }
-  
-  #work-image {
-    display: block;
-    height: 16rem;
-    width: 100%;
-    background-color: var(--yellow);
   }
   
   /* News events section styling */
@@ -205,15 +197,10 @@
     font-weight: 500;
     font-size: 2rem;
     text-align: center;
-  }
-  
-  /* Fake image */
-  .fakeimg {
-    background-color: var(--yellow);
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 12.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: var(--green);
+    color: var(--orange);
   }
   
   #news-events-btn {
@@ -244,6 +231,7 @@
   
   .news-event-heading {
     margin-top: 0.5rem;
+    color: var(--maroon);
   }
   
   .news-event-text {
@@ -364,7 +352,7 @@
     list-style: none;
   }
   
-  .subpage-section .img-container {
+  .subpage-section > .img-container {
     background-color: var(--yellow);
       display: flex;
       height: 24rem;
@@ -377,6 +365,18 @@
       align-self: center;
       text-align: center;
       width: 100%;
+  }
+
+  .img-container > img {
+    width: 100%;
+  }
+
+  .map-container > iframe{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 450px;
+    border: 0.05rem var(--light-black) solid; 
   }
   
   /*Footer section styling*/
@@ -409,6 +409,7 @@
     line-height: 3rem;
     font-weight: 800;
     padding-bottom: 1rem;
+    padding-right: 1rem;
     display: block;
   }
   
