@@ -1,39 +1,48 @@
 TO DO:
 
+- Week 07/12 to 07/19
+	Minimum Viable Product
+	-	Projects: Get projects from Mr. Shamalambo
+	-	Add favicon and logo
+	-	Purchase and configure DNS
+	-	Update Google Business information
+	-/*****REQUIREMENTS FROM TDOVC STAFF******/
+		-	Board Member list
+		-	Staff list
+		-	Projects info
+		-	Image placements
+	/****************THE END****************/
+	-	Add appropriate images to site
+	-	Make website mobile responsive
+	-	Add links to buttons
+	-	Add background image to hero section, full width. Add text on top of image.
+	-	Refactor footer (partly offline)
+
+	
+
 Week 06/28 to 07/05
 
 Minimum Viable Product
--	About Us Page: DONE
-	- Add Staff section DONE
-		- Board, Management, Staff DONE
-	- Add organogram image DONE
--	Accessibility Page: DONE
--	Photo Gallery: Link to Facebook DONE 
--	Jobs: Put section stating no jobs currently available DONE
--	Contact Us: Add map DONE 
--	Donate: Leave as is. DONE
--	Events: No page DONE
--	News: 3 sample articles within page: collapsed, DONE
--	Our Work: Put 1 success story, {get from email}, Separate page for full story DONE
--	Privacy Policy: Copy from Leonard Cheshire DONE
--	Projects: Get projects from Mr. Shamalambo 
--	Publications: {Get ZAPD certificate from email}, Should open in new tab DONE
--	Terms and Conditions: Copy Terms and Conditions from Leonard Cheshire DONE
--	Move Success Stories to Our Work page (offline) DONE
--	Refactor footer (partly offline)
--	Include Projects on header menu (offline) DONE
--	Add favicon and logo
--	Purchase and configure DNS
--	Update Google Business information
+-	About Us Page:                    {{DONE}}
+	- Add Staff section                    {{DONE}}
+		- Board, Management, Staff                    {{DONE}}
+	- Add organogram image                    {{DONE}}
+-	Accessibility Page:                    {{DONE}}
+-	Photo Gallery: Link to Facebook                    {{DONE}} 
+-	Jobs: Put section stating no jobs currently available                    {{DONE}}
+-	Contact Us: Add map                    {{DONE}} 
+-	Donate: Leave as is.                    {{DONE}}
+-	Events: No page                    {{DONE}}
+-	News: 3 sample articles within page: collapsed,                    {{DONE}}
+-	Our Work: Put 1 success story, {get from email}, Separate page for full story                    {{DONE}}
+-	Privacy Policy: Copy from Leonard Cheshire                    {{DONE}}
+ 
+-	Publications: {Get ZAPD certificate from email}, Should open in new tab                    {{DONE}}
+-	Terms and Conditions: Copy Terms and Conditions from Leonard Cheshire                    {{DONE}}
+-	Move Success Stories to Our Work page (offline)                    {{DONE}}
+-	Include Projects on header menu (offline)                    {{DONE}}
 
-/*****REQUIREMENTS FROM TDOVC STAFF******/
--	Board Member list
--	Staff list
--	Projects info
--	Image placements
-/****************THE END****************/
-
--	Create color profile for website (offline) DONE
+-	Create color profile for website (offline)                    {{DONE}}
 	/* Custom properties/variables  */
 	:root {
   	--off-white: #e6e6e6;
@@ -51,14 +60,9 @@ Minimum Viable Product
   	--dark-black: #0d0d0d;
 	}
 
--	Add appropriate images to site
--	Add legitimizing publications to Publications page
--	Create sample articles for News, Events, Announcements DONE
--	Make website mobile responsive
--	Label Image placeholders (offline) DONE 
--	Add links to buttons
-
--	Add background image to hero section, full width. Add text on top of image.
+-	Add legitimizing publications to Publications page                    {{DONE}}
+-	Create sample articles for News, Events, Announcements                    {{DONE}}	
+-	Label Image placeholders (offline)                    {{DONE}} 
 	
 Non MVP
 -	Consistent CSS theme for Button
