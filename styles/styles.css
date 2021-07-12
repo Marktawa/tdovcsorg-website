@@ -383,6 +383,24 @@
     width: 100%;
   }
 
+  .image-text-row {
+    display: flex;
+    padding-bottom: 1rem;
+    border-bottom: var(--dark-black) 0.1rem solid;
+  }
+
+  .side-image-block {
+    flex: 50%;
+  }
+
+  .side-image-block > img {
+    width: 100%;
+  }
+
+  .side-text-block {
+    flex: 50%;
+  }
+
   /*Footer section styling*/
   #footer {
     background-color: var(--orange);
