@@ -14,8 +14,8 @@ Minimum Viable Product
 -	Donate: Leave as is. DONE
 -	Events: No page DONE
 -	News: 3 sample articles within page: collapsed, DONE
--	Our Work: Put 1 success story, {get from email}, Separate page for full story
--	Privacy Policy: Copy from Leonard Cheshire
+-	Our Work: Put 1 success story, {get from email}, Separate page for full story DONE
+-	Privacy Policy: Copy from Leonard Cheshire DONE
 -	Projects: Get projects from Mr. Shamalambo
 -	Publications: {Get ZAPD certificate from email}, Should open in new tab
 -	Terms and Conditions: Copy Terms and Conditions from Leonard Cheshire
