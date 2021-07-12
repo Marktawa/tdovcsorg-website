@@ -379,6 +379,10 @@
     border: 0.05rem var(--light-black) solid; 
   }
   
+  .news-image {
+    width: 100%;
+  }
+
   /*Footer section styling*/
   #footer {
     background-color: var(--orange);

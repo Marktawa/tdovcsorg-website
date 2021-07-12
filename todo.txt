@@ -13,7 +13,7 @@ Minimum Viable Product
 -	Contact Us: Add map DONE 
 -	Donate: Leave as is. DONE
 -	Events: No page DONE
--	News: 3 sample articles within page: collapsed, Separate page for full article
+-	News: 3 sample articles within page: collapsed, DONE
 -	Our Work: Put 1 success story, {get from email}, Separate page for full story
 -	Privacy Policy: Copy from Leonard Cheshire
 -	Projects: Get projects from Mr. Shamalambo
