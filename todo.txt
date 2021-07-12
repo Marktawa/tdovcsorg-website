@@ -6,6 +6,7 @@ TO DO:
 	-	Add favicon and logo
 	-	Purchase and configure DNS
 	-	Update Google Business information
+	-	Add to Google Search Console
 	-/*****REQUIREMENTS FROM TDOVC STAFF******/
 		-	Board Member list
 		-	Staff list
@@ -74,3 +75,4 @@ Non MVP
 -	Announcements: 3 sample articles within page: collapsible
 -	Cookies Policy: Cookies policy using HTML CSS
 -	COVID-19 Policy: Copy Cheshire Homes Society Zambia
+-	Add sitemap
