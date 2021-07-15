@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/header.css">
 
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -10,6 +11,7 @@
   
   <!--<script src="https://kit.fontawesome.com/9ac95a91c7.js" crossorigin="anonymous"></script>-->  
   <link rel= "stylesheet" href="assets/static/fontawesome-5153/css/all.css">
+  <script src="scripts/header.js"></script>
   
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,19 +21,31 @@
 
 <body>
   <div id="page-wrapper">
-    <header id="header">
+    <header id="header-large">
+      <a href="#" id="logo-placeholder">Twatasha Disabled & OVC Organisation</a>
       <nav id="navbar">
-        <ul id="navbar-list">
-          <li><a class="nav-link" href="pages/donate.html">Donate</a></li>
-          <li><a class="nav-link" href="pages/contact-us.html">Contact Us</a></li>
-          <li><a class="nav-link" href="pages/news.html">News</a></li>
-          <li><a class="nav-link" href="pages/our-work.html">Our Work</a></li>
-          <li><a class="nav-link" href="pages/projects.html">Projects</a></li>
-          <li><a class="nav-link" href="pages/about-us.html">About Us</a></li>
-          <li id="logo-placeholder"><a href="index.html">Twatasha Disabled & OVC Organisation</a></li>
-        </ul>
+        <a href="pages/about-us.html">About Us</a>  
+        <a href="pages/news.html">News</a>
+        <a href="pages/our-work.html">Our Work</a>
+        <a href="pages/contact-us.html">Contact Us</a>
+        <a href="pages/donate.html">Donate</a>
       </nav>
     </header>
+    <header id="header-small">
+      <a href="#" id="logo-small">Twatasha Disabled & OVC Organisation</a>
+      <a href="#" id="logo-smallest">TDOVC</a>
+      <nav id="navbar-small">
+        <a href="pages/about-us.html">About Us</a>  
+        <a href="pages/news.html">News</a>
+        <a href="pages/our-work.html">Our Work</a>
+        <a href="pages/contact-us.html">Contact Us</a>
+        <a href="pages/donate.html">Donate</a>
+      </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </header>
+    
     <main id="main">
       <section id="hero">
         <h1 id="welcome-text">Twatasha Disabled and OVC Organisation <br>welcomes you!</h1>

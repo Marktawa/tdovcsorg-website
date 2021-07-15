@@ -37,50 +37,6 @@
     color: var(--dark-green);
   }
   
-  /* Header styling */
-  header {
-    position: fixed;
-    top: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-    background-color: var(--green);
-  }
-  
-  header ul {
-    list-style: none;
-    margin: 0;
-  }
-  
-  header li {
-    float: right;
-  }
-  
-  #logo-placeholder {
-    float: left;
-  }
-  
-  #logo-placeholder a {
-    font-weight: 800;
-  }
-  
-  header a {
-    display: block;
-    text-align: center;
-    padding: 1.8rem 1.2rem;
-    color: var(--orange); /*orange*/
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: none;
-  }
-  
-  header a:hover {
-    color: var(--yellow); /*yellow*/
-    font-weight: 600;
-    background-color: var(--dark-green); /*dark green*/
-    transition: background-color 1s;
-  }
-  
   /*Main section styling*/
   #main {
     background-image: linear-gradient(62deg, var(--off-white) 0%, var(--gray) 100%); /*off-white gray*/

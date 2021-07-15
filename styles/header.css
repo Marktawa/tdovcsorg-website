@@ -1,0 +1,92 @@
+/* Header styling */
+#header-large {
+    overflow: hidden;
+    background-color: var(--green);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #header-large a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1.8rem 1.2rem;
+    color: var(--orange); /*orange*/
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  #navbar {
+    float: right;
+  }
+  
+  #header-large a:hover {
+    color: var(--yellow); /*yellow*/
+    background-color: var(--dark-green); /*dark green*/
+  }
+  
+  #header-small {
+    display: none;
+  }
+  
+  @media screen and (max-width: 900px) {
+    #header-large {
+      display: none;
+    }
+  
+    #header-small {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      background-color: var(--green);
+      position: absolute;
+      top: 0;
+    }
+  
+    #navbar-small {
+      display: none;
+    }
+  
+    #header-small #logo-small {
+      text-align: left;
+    }
+    
+    #header-small #logo-smallest {
+      display: none;
+    }
+    
+    #header-small a {
+      display: block;
+      text-align: center;
+      padding: 1.8rem 1rem;
+      color: var(--orange); /*orange*/
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    
+    #header-small a.icon {
+      background: var(--green);
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  
+    #header-small a:hover {
+      background-color: var(--dark-green);
+      color: var(--yellow);
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    #header-small #logo-small {
+      display: none;
+    }
+    #header-small #logo-smallest {
+      display: block;
+      text-align: left;
+    }
+  }
