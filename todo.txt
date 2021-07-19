@@ -3,12 +3,12 @@ TO DO:
 - Week 07/12 to 07/19
 	Minimum Viable Product
 	-	Add appropriate images to site --
-	-	Make website mobile responsive
+	-	Make website mobile responsive -- DONE
 		- header
 			- highlight currently selected page
 			- separate logo from links
 			- add hamburger menu
-	-	Add links to buttons
+	-	Add links to buttons -- DONE
 	-	Add background image to hero section, full width. Add text on top of image. DONE
 	-	Refactor footer (partly offline)
 	-	Projects: Get projects from Mr. Shamalambo
