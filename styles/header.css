@@ -41,7 +41,7 @@
       width: 100%;
       overflow: hidden;
       background-color: var(--green);
-      position: absolute;
+      position: fixed;
       top: 0;
     }
   
