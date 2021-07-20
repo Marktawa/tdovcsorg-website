@@ -9,6 +9,7 @@ TO DO:
 			- separate logo from links
 			- add hamburger menu
 	-	Add links to buttons -- DONE
+	-	Contact form (https://lo-victoria.com/how-to-build-a-contact-form-with-javascript-and-nodemailer)
 	-	Add background image to hero section, full width. Add text on top of image. DONE
 	-	Refactor footer (partly offline)
 	-	Projects: Get projects from Mr. Shamalambo
