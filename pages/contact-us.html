@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../styles/subpage.css">
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/styles.css">
+
+    <link rel="stylesheet" href="../styles/contact.css">
   
     <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -104,9 +106,35 @@
           </ul>
         </div>
       </section>
-      <!--<section class="subpage-section" id="email-form">
+      <section class="subpage-section" id="email-form">
                 <h1>Send us a message</h1>
-                <div></div>
+                <!-- Contact Us Form -->
+  <div id="contact-us-form-block">
+    <h2>Send us a message</h2>
+    <form action="https://stark-everglades-77513.herokuapp.com/send" method="post" id="contact-us-form" enctype="multipart/form-data">
+      <ul>
+        <li>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </li>
+        <li>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </li>
+        <li>
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required />
+        </li>
+        <li>
+          <label for="msg">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </li>
+        <li class="button">
+          <button type="submit" value="submit">Send</button>
+        </li>
+      </ul>
+    </form>
+  </div>
             </section>-->
       <section class="subpage-section" id="map-locale">
         <h1>Map Location</h1>
@@ -248,6 +276,7 @@ Photo Gallery</a>
       </div>
     </footer>
   </div>
+  <script src="../scripts/contact.js"></script>
 </body>
 
 </html>
