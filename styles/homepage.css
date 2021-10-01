@@ -257,3 +257,32 @@ margin-left: 1%;
 .partner-block {
   padding: 1rem;
 }
+
+#intro-video {
+  background: #FFF;
+  padding: 3rem;
+}
+
+#video-container {
+  padding: 0 5rem;
+}
+
+#video-container > iframe{
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 560px;
+  border: 0.05rem var(--light-black) solid; 
+}
+
+@media (max-width: 768px) {
+  #intro-video {
+    padding: 3rem 1rem;
+  }
+  #video-container {
+    padding: 0 2rem;
+  }
+  #video-container > iframe {
+    height: 360px;
+  }
+}
