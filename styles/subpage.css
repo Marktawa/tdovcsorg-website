@@ -23,7 +23,7 @@
   
   /*Inner Section Styling*/
   .subpage-section {
-    padding: 5% 20% 5%  20%;
+    padding: 10% 20% 5%  20%;
     border-bottom-style: solid;
     border-color: var(--dark-green);
     border-width: 0.05rem;
