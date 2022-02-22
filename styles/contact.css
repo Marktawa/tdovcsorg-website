@@ -10,7 +10,7 @@
    }
  }
  
- #contact-us-form-block h2 {
+ #contact-us-form-h2 {
    text-align: left;
  }
  
@@ -19,16 +19,18 @@
    padding: 1.5em 2.4em;
    border: 1px solid #030;
    border-radius: 0.5em;
+   display: block;
  }
  
- #contact-us-form ul {
+ #contact-us-form-ul {
    list-style: none;
    padding: 0;
    margin: 0;
  }
  
-  #contact-us-form li + li {
+ #contact-us-form-li {
    margin-top: 1em;
+   margin-bottom: 0.5em;
  }
  
  label {
@@ -56,11 +58,11 @@
    height: 12em;
  }
  
- .button {
+ #contact-us-form-button {
    text-align: right;
  }
  
- button {
+ #contact-us-button {
    font: inherit;
    color: yellow;
    background-color: #030;
@@ -69,7 +71,7 @@
    padding: 0.2em 1em;
  }
  
- button:hover {
+ #contact-us-button:hover {
    cursor: pointer;
    color: orange;
    background-color: green;

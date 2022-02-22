@@ -110,27 +110,27 @@
                 <h1>Send us a message</h1>
                 <!-- Contact Us Form -->
   <div id="contact-us-form-block">
-    <h2>Send us a message</h2>
+    <h2 id="contact-us-form-h2">Send us a message</h2>
     <form action="https://stark-everglades-77513.herokuapp.com/send" method="post" id="contact-us-form" enctype="multipart/form-data">
-      <ul>
-        <li>
+      <ul id="contact-us-form-ul">
+        <li id="contact-us-form-li">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required>
         </li>
-        <li>
+        <li id="contact-us-form-li">
           <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="mail" name="email" required>
         </li>
-        <li>
+        <li id="contact-us-form-li">
           <label for="subject">Subject</label>
           <input id="subject" name="subject" type="text" required />
         </li>
-        <li>
+        <li id="contact-us-form-li">
           <label for="msg">Message</label>
           <textarea id="message" name="message" required></textarea>
         </li>
-        <li class="button">
-          <button type="submit" value="submit">Send</button>
+        <li id="contact-us-form-button">
+          <button id="contact-us-button" type="submit" value="submit">Send</button>
         </li>
       </ul>
     </form>
