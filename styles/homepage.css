@@ -1,7 +1,6 @@
 /*Main section styling*/
 #main {
   background-image: linear-gradient(62deg, var(--off-white) 0%, var(--gray) 100%); /*off-white gray*/
-  padding-top: 4.25rem;
 }
 
 /* Hero Section Styling */
@@ -138,7 +137,7 @@ margin-left: 1%;
 #news-events {
   padding-bottom: 3rem;
   border: 0;
-   background-image: linear-gradient(to right, var(--gray), #ffff4d);
+  background-color: var(--off-white);
 }
 
 .news-header {

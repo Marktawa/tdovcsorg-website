@@ -1,198 +1,198 @@
 /*Hero section styling*/
 .subpage-hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image-0.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image-0.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  border-bottom-style: solid;
+  border-color: var(--dark-green);
+  border-width: 0.05rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subpage-hero h1 {
+  font-size: 5.8rem;
+  font-weight: 800;
+  color: var(--yellow);
+}
+
+/*Inner Section Styling*/
+.subpage-section {
+  padding: 10% 20% 5%  20%;
+  border-bottom-style: solid;
+  border-color: var(--dark-green);
+  border-width: 0.05rem;
+}
+
+.subpage-section h1 {
+  text-align: left;
+  padding-left: 1%;
+  margin-bottom: 2%;
+  font-size: 3rem;
+  color: var(--orange);
+  background-color: var(--green);
+  border-radius: 0.2rem;
+}
+
+.subpage-section div {
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.subpage-section h2 {
+  padding: 2% 0% 2% 0%;
+}
+
+.subpage-section h3 {
+  padding: 1% 0% 1% 0%;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--light-black);
+}
+
+.subpage-section p {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: justify;
+}
+
+.subpage-section ol, ul {
+  padding-left: 3%;
+}
+
+.subpage-section li {
+  padding-bottom: 1%;
+}
+
+.subpage-section a {
+  text-decoration: none;
+  color: var(--dark-green);
+  background-color: transparent;
+  list-style: none;
+}
+
+.subpage-section a:hover {
+  background: var(--yellow);
+  text-decoration: underline;
+}
+
+.subpage-section table {
+  margin-bottom: 0.5rem;
+}
+
+#social-media ul {
+  display: inline;
+}
+
+#social-media li {
+  list-style: none;
+}
+
+.subpage-section .img-container {
+  background-color: var(--yellow);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 30rem;
+    margin-right: 0.3rem; 
+    padding: 0;
+    width: 100%;
+}
+
+.img-container > h4 {
+    align-self: center;
     text-align: center;
-    height: 100vh;
-    border-bottom-style: solid;
-    border-color: var(--dark-green);
-    border-width: 0.05rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .subpage-hero h1 {
-    font-size: 5.8rem;
-    font-weight: 800;
-    color: var(--yellow);
-  }
-  
-  /*Inner Section Styling*/
-  .subpage-section {
-    padding: 10% 20% 5%  20%;
-    border-bottom-style: solid;
-    border-color: var(--dark-green);
-    border-width: 0.05rem;
-  }
-  
-  .subpage-section h1 {
-    text-align: left;
-    padding-left: 1%;
-    margin-bottom: 2%;
-    font-size: 3rem;
-    color: var(--orange);
-    background-color: var(--green);
-    border-radius: 0.2rem;
-  }
-  
-  .subpage-section div {
-    padding-left: 1%;
-    padding-top: 1%;
-  }
-  
-  .subpage-section h2 {
-    padding: 2% 0% 2% 0%;
-  }
-  
-  .subpage-section h3 {
-    padding: 1% 0% 1% 0%;
-    font-style: italic;
-    font-weight: 400;
-    color: var(--light-black);
-  }
-  
-  .subpage-section p {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: justify;
-  }
-  
-  .subpage-section ol, ul {
-    padding-left: 3%;
-  }
-  
-  .subpage-section li {
-    padding-bottom: 1%;
-  }
-  
-  .subpage-section a {
-    text-decoration: none;
-    color: var(--dark-green);
-    background-color: transparent;
-    list-style: none;
-  }
-  
-  .subpage-section a:hover {
-    background: var(--yellow);
-    text-decoration: underline;
-  }
-  
-  .subpage-section table {
-    margin-bottom: 0.5rem;
-  }
-  
-  #social-media ul {
-    display: inline;
-  }
-  
-  #social-media li {
-    list-style: none;
-  }
-  
-  .subpage-section .img-container {
-    background-color: var(--yellow);
-      display: flex;
-      height: 30rem;
-      margin-right: 0.3rem; 
-      padding: 0;
-      width: 100%;
-  }
-  
-  .img-container > h4 {
-      align-self: center;
-      text-align: center;
-      width: 100%;
-  }
-
-  .img-container > img {
     width: 100%;
-    object-fit: cover;
-  }
+}
 
-  .map-container > iframe{
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 450px;
-    border: 0.05rem var(--light-black) solid; 
-  }
-  
-  .news-image {
-    width: 100%;
-    object-fit: cover;
-  }
+.img-container > img {
+  width: 100%;
+  object-fit: cover;
+}
 
-  .image-text-row {
-    display: flex;
-    padding-bottom: 1rem;
-    border-bottom: var(--dark-black) 0.1rem solid;
-  }
+.map-container > iframe{
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 450px;
+  border: 0.05rem var(--light-black) solid; 
+}
 
-  .side-image-block {
-    flex: 50%;
-  }
+.news-image {
+  width: 100%;
+  object-fit: cover;
+}
 
-  .side-image-block img {
-    width: 100%;
-  }
+.image-text-row {
+  display: flex;
+  padding-bottom: 1rem;
+  border-bottom: var(--dark-black) 0.1rem solid;
+}
 
-  .side-text-block {
-    flex: 50%;
-  }
+.side-image-block {
+  flex: 50%;
+}
+
+.side-image-block img {
+  width: 100%;
+}
+
+.side-text-block {
+  flex: 50%;
+}
 
 @media (max-width: 768px) {
-  .image-text-row {
-    display: block;
-  }
+.image-text-row {
+  display: block;
+}
 }
 
 @media (max-width: 1080px) {
-  .subpage-section {
-    padding: 5% 10%;
-  }
+.subpage-section {
+  padding: 5% 10%;
+}
 }
 
 @media (max-width: 512px) {
-  .subpage-section {
-    padding: 2% 5%;
-  }
-  .subpage-hero h1 {
-    font-size: 4rem;
-  }
-  .subpage-section h1 {
-    font-size: 2rem;
-  }
-  .subpage-section h2 {
-    font-size: 1.6rem;
-  }
-  .subpage-section h3 {
-    font-size: 1.2rem;
-  }
-  .subpage-section p, li {
-    font-size: 0.9rem;
-  }
+.subpage-section {
+  padding: 2% 5%;
 }
-  @media (max-width: 256px) {
-  .subpage-section {
-    padding: 1% 2%;
-  }
-  .subpage-hero h1 {
-    font-size: 3rem;
-  }
-  .subpage-section h1 {
-    font-size: 1.5rem;
-  }
-  .subpage-section h2 {
-    font-size: 1rem;
-  }
-  .subpage-section h3 {
-    font-size: 0.9rem;
-  }
-  .subpage-section p, li {
-    font-size: 0.8rem;
-  }
+.subpage-hero h1 {
+  font-size: 4rem;
+}
+.subpage-section h1 {
+  font-size: 2rem;
+}
+.subpage-section h2 {
+  font-size: 1.6rem;
+}
+.subpage-section h3 {
+  font-size: 1.2rem;
+}
+.subpage-section p, li {
+  font-size: 0.9rem;
+}
+}
+@media (max-width: 256px) {
+.subpage-section {
+  padding: 1% 2%;
+}
+.subpage-hero h1 {
+  font-size: 3rem;
+}
+.subpage-section h1 {
+  font-size: 1.5rem;
+}
+.subpage-section h2 {
+  font-size: 1rem;
+}
+.subpage-section h3 {
+  font-size: 0.9rem;
+}
+.subpage-section p, li {
+  font-size: 0.8rem;
+}
 }
