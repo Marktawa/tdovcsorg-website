@@ -168,6 +168,7 @@
 @media (max-width: 800px) {
   .site-footer-container-inner {
     display: block;
+    background-color: green;
   }
   .site-footer-navigation-primary, .site-footer-cta, .site-footer-social {
     width: 100%;
@@ -222,4 +223,31 @@
 #second-footer-section {
   display: block;
 }
-  
+a:hover
+{
+background-color: darkgreen;
+color: white;
+font-weight: bold;
+}
+a
+{
+border: none;
+background-color: inherit;
+color: black;
+font-weight: bold:
+}
+#submit:hover
+{
+background-color: blue;
+color: white;
+border: none;
+}
+.vid-container
+{
+background-color: inherit;
+
+}
+.foot-fine
+{
+background-image: linear lightblue lime beige;
+}
